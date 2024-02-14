@@ -81,3 +81,12 @@ body{
 .imagen{
     width: 100%;
 }
+
+@media only screen and (max-width : 900px) {
+    
+    .titulo h1{
+        font-size: 1.5em;
+
+    }
+
+}
