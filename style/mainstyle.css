@@ -85,8 +85,39 @@ body{
 @media only screen and (max-width : 900px) {
     
     .titulo h1{
-        font-size: 1.5em;
+        font-size: 2.2em;
 
     }
 
+}
+
+@media only screen and (max-width : 700px) {
+
+    .titulo h1{
+        font-size: 1.7em;
+
+    }
+    .contenedorSecundario{
+        width: 85%;
+    }
+    
+    .contenido{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+
+    .titulo h1{
+        font-size: 1.5em;
+
+    }
+    .contenedorSecundario{
+        width: 80%;
+    }
+
+    .contenido{
+        width: 75%;
+    }
+    
 }
